@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--clr-black);
+    padding-block: 15.813rem 4rem;
+    color: var(--clr-white);
+}
+
+
+/* tablet */
+@media (min-width:640px) {
+    .footer {
+        padding-block: 10rem 5rem;
+    }
+}
+
+
+/* desktop */
+@media (min-width:864px) {
+    .footer {
+        padding-block: 9rem 4.5rem;
+    }
+}

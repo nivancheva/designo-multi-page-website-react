@@ -1,0 +1,10 @@
+.navbar {
+    padding-block: 2.188rem;
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .navbar {
+        padding-block: 4rem;
+    }
+}
