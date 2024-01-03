@@ -2,9 +2,25 @@
     padding-block: 2.188rem;
 }
 
+/* mobile */
+@media (max-width:639px) {
+    .navbar-links {
+        display: none;
+    }
+}
+
 /* tablet */
 @media (min-width:640px) {
     .navbar {
         padding-block: 4rem;
+    }
+
+    .navbar-links {
+        display: flex;
+        gap: 2.625rem;
+    }
+
+    .mobile-menu {
+        display: none;
     }
 }
