@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --clr-white: rgb(255, 255, 255);
+    --clr-light-gray: rgb(241, 243, 245);
+    --clr-black:  rgb(29, 28, 30);
+    --clr-dark-gray: rgb(51, 49, 54);
+    --clr-peach:  rgb(231, 129, 107);
+    --clr-light-peach:  rgb(255, 173, 155);
+
+    --ff-jost: 'Jost', sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+}
+
+body {
+    font-family: var(--ff-jost);
+}
