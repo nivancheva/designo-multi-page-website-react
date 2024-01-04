@@ -4,11 +4,42 @@
     color: var(--clr-white);
 }
 
+.footer-links {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+/* mobile */
+@media (max-width:639px) {
+    .footer-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links  {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .contact-info {
+        gap: 2.5rem
+    }
+}
 
 /* tablet */
 @media (min-width:640px) {
     .footer {
         padding-block: 10rem 5rem;
+    }
+
+    .contact-info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-links {
+        gap: 2.625rem;
+        font-size: .875rem;
     }
 }
 
