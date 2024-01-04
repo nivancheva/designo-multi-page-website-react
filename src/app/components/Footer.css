@@ -17,6 +17,7 @@
 
 .social-media {
     gap: 1rem;
+    align-items: center;
 }
 
 .contact-info {
