@@ -26,6 +26,8 @@
 
     --fz-h3: 1.25rem;
     --letter-spacing-h3: 5px;
+
+    --border-radius: .5rem;
 }
 
 body {
@@ -65,7 +67,7 @@ button {
     letter-spacing: 1px;
     cursor: pointer;
     padding: 1rem 1.5rem;
-    border-radius: .5rem;
+    border-radius: var(--border-radius);
 }
 
 .button-primary {   

@@ -2,7 +2,7 @@
     background-color: var(--clr-peach);
     color: var(--clr-white);
     padding: 4rem 1.5rem;
-    border-radius: .5rem;
+    border-radius: var(--border-radius);
     text-align: center;
 }
 
