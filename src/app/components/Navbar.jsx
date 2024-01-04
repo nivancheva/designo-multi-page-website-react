@@ -27,11 +27,11 @@ export default function Navbar() {
                         height={27}
                     />
                 </Link>
-                <div className="flex">
+                <div>
                     <button onClick={handleClick} className="mobile-menu">
                         <Image src={isOpen ? close : hamburger } alt='open menu'/>
                     </button>
-                    <div className="navbar-links">
+                    <div className={`navbar-links ${isOpen ? 'open' : 'close'}`}>
                         <Link href='/company'>Our company</Link>
                         <Link href='/location'>Location</Link>
                         <Link href='/contact'>Contact</Link>
