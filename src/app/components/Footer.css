@@ -15,6 +15,10 @@
     color: var(--clr-white);
 }
 
+.footer-links > *:hover {
+    text-decoration: underline;
+}
+
 .social-media {
     gap: 1rem;
     align-items: center;

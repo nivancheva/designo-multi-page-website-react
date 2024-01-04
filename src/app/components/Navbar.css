@@ -9,6 +9,10 @@
     letter-spacing: 2px;
 }
 
+.navbar-links > *:hover {
+    text-decoration: underline;
+}
+
 /* mobile */
 @media (max-width:639px) {
     .navbar {
