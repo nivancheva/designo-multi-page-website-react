@@ -33,6 +33,14 @@
     top: -85%;
 }
 
+.social_link {
+    fill: #E7816B;
+}
+
+.social_link:hover {
+    fill: var(--clr-light-peach);
+}
+
 /* mobile */
 @media (max-width:639px) {
     .footer-menu {
