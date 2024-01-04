@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <div className="container">
       <p>Hello world!</p>
-      <GetInTouch />
+      <div className='translateY'>
+        <GetInTouch />
+      </div>
+    
     </div>
   )
 }

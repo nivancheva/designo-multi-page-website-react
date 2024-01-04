@@ -94,6 +94,10 @@ button {
     .container {
         width: 327px;
     }
+
+    .translateY {
+        transform: translateY(10rem);
+    }
 }
 
 /* tablet */
@@ -108,6 +112,10 @@ button {
     
     h2 {
         font-size: var(--fz-h2);
+    }
+
+    .translateY {
+        transform: translateY(4rem);
     }
 }
 
