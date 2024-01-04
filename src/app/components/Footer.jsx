@@ -42,19 +42,19 @@ export default function Footer() {
                     </div>
 
                     <div className='flex social-media'>
-                        <Link href='#'>
+                        <Link href='https://www.facebook.com/?locale=bg_BG' target='blank'>
                             <Image src={facebook} alt='facebook'/>
                         </Link>
-                        <Link href='#'>
+                        <Link href='https://www.youtube.com/' target='blank'>
                             <Image src={youtube} alt='youtube'/>
                         </Link>
-                        <Link href='#'>
+                        <Link href='https://twitter.com/?lang=bg' target='blank'>
                             <Image src={twitter} alt='twitter'/>
                         </Link>
-                        <Link href='#'>
+                        <Link href='https://www.pinterest.com/' target='blank'>
                             <Image src={pinterest} alt='pinterest'/>
                         </Link>
-                        <Link href='#'>
+                        <Link href='https://www.instagram.com/' target='blank'>
                             <Image src={instagram} alt='instagram'/>
                         </Link>
                  </div>
