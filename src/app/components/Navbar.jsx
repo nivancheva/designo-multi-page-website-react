@@ -17,6 +17,7 @@ export default function Navbar() {
     };
 
     return (
+        <>
         <div className="navbar">
             <div className="container flex items-center justify-between">
                 <Link href='/'>
@@ -39,5 +40,10 @@ export default function Navbar() {
                 </div>
             </div>
         </div>
+        { isOpen && 
+            <div className="navbar-overlay">
+            </div>
+        }
+        </>
     )
 }

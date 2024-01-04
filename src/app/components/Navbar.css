@@ -1,5 +1,7 @@
 .navbar {
     padding-block: 2.188rem;
+    background-color: var(--clr-white);
+    z-index: 10;
 }
 
 .navbar-links {
@@ -31,6 +33,13 @@
 
     .close {
         display: none;
+    }
+
+    .navbar-overlay {
+        position: fixed;
+        inset: 0;
+        background: var(--clr-black);
+        opacity: 0.6;
     }
 }
 
