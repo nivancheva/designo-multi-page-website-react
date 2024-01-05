@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="container">
       <p>Hello world!</p>
-      <div>
+      <div className='qualities-container'>
         {qualities.map(quality => {
           return (
             <Quality key={quality.id} {...quality}/>
