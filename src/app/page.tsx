@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <div className='section-gap grid gap-[1.5rem] design-link-wparrer'>
-        <DesignLink design={designsJson.webDesign} classname='webLink'/>
+        <DesignLink design={designsJson.webDesign} large/>
         <DesignLink design={designsJson.appDesign}/>
         <DesignLink design={designsJson.graphicDesign}/>
       </div>
