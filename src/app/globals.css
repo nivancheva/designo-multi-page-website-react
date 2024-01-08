@@ -58,6 +58,7 @@ h3 {
 
 .container {
     margin-inline: auto;
+    gap: 7.5rem
 }
 
 button {
@@ -88,22 +89,43 @@ button {
     background-color: var(--clr-light-peach);
     color: var(--clr-white);
 }
+
+.page-heading {
+    background-color: var(--clr-peach);
+    color: var(--clr-white);
+    border-radius: var(--border-radius);
+    text-align: center;
+    overflow: hidden;
+}
+
+.phone-img {
+    transform: translateY(30%) scale(1.9);
+}
+
+.margin-b {
+    margin-block: 1.5rem;
+}
  
 /* mobile */
 @media (max-width:639px) {
     .container {
-        width: 327px;
+        max-width: 327px;
     }
 
     .translateY {
         transform: translateY(10rem);
+    }
+
+    .page-heading {
+        padding: 5rem 1.5rem 0 1.5rem;
     }
 }
 
 /* tablet */
 @media (min-width:640px) {
     .container {
-        width: 689px;
+        max-width: 680px;
+        padding-inline: 1.5rem;
     }
 
     h1 {
@@ -117,12 +139,39 @@ button {
     .translateY {
         transform: translateY(4rem);
     }
-}
 
+    .page-heading {
+        padding: 3.75rem 3.75rem 0 3.75rem;
+    }
+
+    .margin-b {
+        margin-block: 1.25rem;
+    }
+}
 
 /* desktop */
 @media (min-width:864px) {
     .container {
-        width: 1111px;
+        max-width: 1111px;
+        gap: 10rem
     }
+
+    .page-heading {
+        text-align: left;
+
+        padding: 9rem 0 0 5.938rem;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .phone-img {
+        transform: translateY(5%) scale(1.7);
+    }
+
+    .margin-b {
+        margin-block: 2.5rem;
+    }
+
+    
 }
