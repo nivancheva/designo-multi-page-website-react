@@ -4,10 +4,6 @@
     position: relative;
 }
 
-.design-link:hover {
-    cursor: pointer;
-}
-
 .design-link:hover::after {
     opacity: .5;
     background-color: var(--clr-peach);

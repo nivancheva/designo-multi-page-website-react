@@ -2,18 +2,21 @@
     "webDesign": {
         "id": 1,
         "title": "Web Design",
+        "url": "/design/web",
         "bgImage": "image-web-design"
     },
 
     "appDesign": {
         "id": 2,
         "title": "App Design",
+        "url": "/design/app",
         "bgImage": "image-app-design"
     }, 
 
     "graphicDesign": {
         "id": 3,
         "title": "Graphic Design",
+        "url": "/design/graphic",
         "bgImage": "image-graphic-design"
     }
 }
