@@ -165,7 +165,7 @@ button {
     .page-heading {
         text-align: left;
 
-        padding: 9rem 0 0 5.938rem;
+        padding: 9rem 0 1rem 5.938rem;
 
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -179,5 +179,11 @@ button {
         margin-block: 2.5rem;
     }
 
-    
+    .design-link-wparrer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .webLink {
+        grid-row: 1/span 2;
+    }
 }

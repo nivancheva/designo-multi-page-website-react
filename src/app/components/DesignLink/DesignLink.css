@@ -1,0 +1,34 @@
+.design-link {
+    background-color: red;
+    border-radius: var(--border-radius);
+    color: var(--clr-white);
+}
+
+.design-link:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+/* mobile */
+@media (max-width:639px) {
+   .design-link {
+        padding-block: 5.625rem;
+   }
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .design-link {
+        padding-block: 3.313rem;
+   }
+}
+
+/* desktop */
+@media (min-width:864px) {
+    .design-link {
+        padding-block: 6.688rem;
+
+        display: grid;
+        place-content: center;
+   }
+}

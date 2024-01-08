@@ -2,10 +2,13 @@
 
 import GetInTouch from './components/GetInTouch/GetInTouch'
 import Quality from './components/Quality/Quality'
+import DesignLink from './components/DesignLink/DesignLink'
 import qualitiesJson from '../qualities.json'
 import { useState } from 'react'
 import imagePhone from './assets/image-hero-phone.png'
 import Image from 'next/image'
+import designsJson from'../designs.json'
+
 
 
 export default function Home() {
@@ -22,6 +25,12 @@ export default function Home() {
         <div>
           <Image className='phone-img' src={imagePhone} alt='image of a phone'/>
         </div>
+      </div>
+
+      <div className='section-gap grid gap-[1.5rem] design-link-wparrer'>
+        <DesignLink design={designsJson.webDesign} classname='webLink'/>
+        <DesignLink design={designsJson.appDesign}/>
+        <DesignLink design={designsJson.graphicDesign}/>
       </div>
 
       <div className='qualities-container section-gap'>
