@@ -58,7 +58,10 @@ h3 {
 
 .container {
     margin-inline: auto;
-    gap: 7.5rem
+}
+
+.section-gap {
+    margin-top: 7.5rem;
 }
 
 button {
@@ -153,7 +156,10 @@ button {
 @media (min-width:864px) {
     .container {
         max-width: 1111px;
-        gap: 10rem
+    }
+
+    .section-gap {
+        margin-top: 10rem;
     }
 
     .page-heading {

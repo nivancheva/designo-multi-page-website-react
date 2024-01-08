@@ -1,6 +1,6 @@
 import './Footer.css'
 import Image from 'next/image'
-import logo from '../assets/logo/logo-light.png'
+import logo from '../../assets/logo/logo-light.png'
 import Link from 'next/link'
 
 export default function Footer() {

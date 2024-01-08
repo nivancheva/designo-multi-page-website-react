@@ -1,9 +1,9 @@
 'use client'
 
 import Link from "next/link";
-import logo from '../assets/logo/logo-dark.png'
-import hamburger from '../assets/icon-hamburger.svg'
-import close from '../assets/icon-close.svg'
+import logo from '../../assets/logo/logo-dark.png'
+import hamburger from '../../assets/icon-hamburger.svg'
+import close from '../../assets/icon-close.svg'
 import Image from "next/image";
 import './Navbar.css'
 import { useState } from "react";

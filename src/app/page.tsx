@@ -1,7 +1,7 @@
 "use client"
 
-import GetInTouch from './components/GetInTouch'
-import Quality from './components/Quality'
+import GetInTouch from './components/GetInTouch/GetInTouch'
+import Quality from './components/Quality/Quality'
 import qualitiesJson from '../qualities.json'
 import { useState } from 'react'
 import imagePhone from './assets/image-hero-phone.png'
@@ -12,7 +12,7 @@ export default function Home() {
   const [qualities, setQualities] = useState(qualitiesJson);
 
   return (
-    <div className="container grid">
+    <div className="container">
       <div className='page-heading'>
         <div>
           <h1>Award-winning custom designs and digital branding solutions</h1>
@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='qualities-container'>
+      <div className='qualities-container section-gap'>
         {qualities.map(quality => {
           return (
             <Quality key={quality.id} {...quality}/>

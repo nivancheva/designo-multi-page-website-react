@@ -3,8 +3,8 @@ import { Jost } from 'next/font/google'
 import './globals.css'
 
 //components
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 
 const jost = Jost({ subsets: ['latin'] })
