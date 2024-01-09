@@ -128,7 +128,7 @@ button {
 @media (min-width:640px) {
     .container {
         max-width: 680px;
-        padding-inline: 1.5rem;
+        width: 90%;
     }
 
     h1 {

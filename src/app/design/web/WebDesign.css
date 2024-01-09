@@ -1,0 +1,40 @@
+.design-heading {
+    text-align: center;
+    background-color: var(--clr-peach);
+    color: var(--clr-white);
+}
+
+.links-designs {
+    gap: 1.5rem;
+}
+
+/* mobile */
+@media (max-width:639px) {
+    .design-heading {
+        padding: 6.563rem 1.5rem;
+    }
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .design-heading {
+        padding: 4rem 1.5rem;
+        max-width: 680px;
+        width: 90%; 
+        margin-inline: auto;
+        border-radius: var(--border-radius);
+    }
+}
+
+/* desktop */
+@media (min-width:864px) {
+    .design-heading {
+        max-width: 1111px;
+    }
+
+    .links-designs {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.875rem;
+    }
+
+}
