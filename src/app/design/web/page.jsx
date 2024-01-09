@@ -2,6 +2,8 @@ import './WebDesign.css'
 import DesignLink from '../../components/DesignLink/DesignLink'
 import designsJson from '../../../designs.json'
 import GetInTouch from '../../components/GetInTouch/GetInTouch'
+import Card from '../../components/Card/Card'
+import webcard from './webcards.json'
 
 export default function WebDesign() {
     return (
@@ -11,7 +13,11 @@ export default function WebDesign() {
                 <p>We build websites that serve as powerful marketing tools and bring memorable brand experiences.</p>
             </div>
             <div className='section-gap container'>
-                Cards
+                {webcard.map(card => {
+                    return (
+                        <Card key={card.id} {...card}/>
+                    )
+                })}
             </div>
 
             <div className='links-designs grid section-gap container'>

@@ -1,5 +1,3 @@
-"use client"
-
 import GetInTouch from './components/GetInTouch/GetInTouch'
 import Quality from './components/Quality/Quality'
 import DesignLink from './components/DesignLink/DesignLink'
@@ -12,8 +10,6 @@ import designsJson from'../designs.json'
 
 
 export default function Home() {
-  const [qualities, setQualities] = useState(qualitiesJson);
-
   return (
     <div className="container">
       <div className='page-heading'>
@@ -34,7 +30,7 @@ export default function Home() {
       </div>
 
       <div className='qualities-container section-gap'>
-        {qualities.map(quality => {
+        {qualitiesJson.map(quality => {
           return (
             <Quality key={quality.id} {...quality}/>
           )

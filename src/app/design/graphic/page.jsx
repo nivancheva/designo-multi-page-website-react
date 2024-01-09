@@ -1,6 +1,7 @@
 import DesignLink from '../../components/DesignLink/DesignLink'
 import designsJson from '../../../designs.json'
 import GetInTouch from '../../components/GetInTouch/GetInTouch'
+import Card from '../../components/Card/Card'
 
 export default function GhraphicDesign() {
     return (
@@ -10,7 +11,7 @@ export default function GhraphicDesign() {
                 <p>We deliver eye-catching branding materials that are tailored to meet your business objectives.</p>
             </div>
             <div className='section-gap container'>
-                Cards
+                <Card />
             </div>
 
             <div className='links-designs grid section-gap container'>
