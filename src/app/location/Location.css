@@ -1,0 +1,23 @@
+.countries_container {
+    gap: 2.5rem;
+}
+
+
+/* mobile */
+@media (max-width:639px) {
+    .margin-contact {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .countries_container {
+        gap: 7.5rem;
+    }
+}
+
+/* desktop */
+@media (min-width:864px) {
+
+}
