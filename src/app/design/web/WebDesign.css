@@ -8,6 +8,10 @@
     gap: 1.5rem;
 }
 
+.cards-wrapper {
+    gap: 2.5rem;
+}
+
 /* mobile */
 @media (max-width:639px) {
     .design-heading {
@@ -24,6 +28,10 @@
         margin-inline: auto;
         border-radius: var(--border-radius);
     }
+
+    .cards-wrapper {
+        gap: 2;
+    }
 }
 
 /* desktop */
@@ -35,6 +43,11 @@
     .links-designs {
         grid-template-columns: 1fr 1fr;
         gap: 1.875rem;
+    }
+
+    .cards-wrapper {
+        gap: 1.85;
+        grid-template-columns: repeat(3, 1fr);
     }
 
 }

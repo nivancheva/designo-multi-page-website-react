@@ -1,0 +1,36 @@
+.card {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.card-text {
+    background-color: var(--clr-very-light-peach);
+    padding: 2rem;
+}
+
+.card-text:hover {
+    cursor: pointer;
+    background-color: var(--clr-light-peach);
+    color: var(--clr-white)
+}
+
+.title {
+    color: var(--clr-peach);
+    margin-bottom: 1rem;
+}
+
+
+/* mobile */
+@media (max-width:639px) {
+
+ }
+ 
+ /* tablet */
+ @media (min-width:640px) {
+   
+ }
+ 
+ /* desktop */
+ @media (min-width:864px) {
+    
+ }

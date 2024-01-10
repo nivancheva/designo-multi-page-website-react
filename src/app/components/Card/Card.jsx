@@ -2,10 +2,10 @@ import './Card.css'
 
 export default function Card( {category, image, title, text} ) {
     return (
-        <div>
+        <div className='card'>
             <img src={`../${category}/${image}.jpg`} alt='card images'/>
-            <div>
-                <h3>{title}</h3>
+            <div className='card-text'>
+                <h3 className='title'>{title}</h3>
                 <p>{text}</p>
             </div>
         </div>

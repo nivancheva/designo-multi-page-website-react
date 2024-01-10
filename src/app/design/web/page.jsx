@@ -12,7 +12,7 @@ export default function WebDesign() {
                 <h1>Web Design</h1>
                 <p>We build websites that serve as powerful marketing tools and bring memorable brand experiences.</p>
             </div>
-            <div className='section-gap container'>
+            <div className='section-gap container grid cards-wrapper'>
                 {webcard.map(card => {
                     return (
                         <Card key={card.id} {...card}/>
