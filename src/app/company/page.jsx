@@ -15,7 +15,7 @@ export default function Company() {
                         srcSet="/about/tablet/image-about-hero.jpg"
                         media="(min-width:640px)"
                     />
-                    <img src="/about/mobile/image-about-hero.jpg" />
+                    <img className='company-img' src="/about/mobile/image-about-hero.jpg" />
                 </picture>
               
                 <div className='about-us_text padding-company'>
@@ -34,7 +34,7 @@ export default function Company() {
                         srcSet="/about/tablet/image-world-class-talent.jpg"
                         media="(min-width:640px)"
                     />
-                    <img src="/about/mobile/image-world-class-talent.jpg" />
+                    <img className='company-img' src="/about/mobile/image-world-class-talent.jpg" />
                 </picture>
 
                 <div className='world-talant_text padding-company'>
@@ -56,7 +56,7 @@ export default function Company() {
                         srcSet="/about/tablet/image-real-deal.jpg"
                         media="(min-width:640px)"
                     />
-                    <img src="/about/mobile/image-real-deal.jpg" />
+                    <img className='company-img' src="/about/mobile/image-real-deal.jpg" />
                 </picture>
 
                 <div className='real-deal_text padding-company'>
