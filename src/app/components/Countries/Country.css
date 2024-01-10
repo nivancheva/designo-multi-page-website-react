@@ -1,0 +1,12 @@
+.country-wrapper {
+    text-align: center;
+}
+
+.bg-country {
+    background-image: url('../../../../public/bg-images/bg-pattern-small-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: grid;
+    place-content: center;
+}

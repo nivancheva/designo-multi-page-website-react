@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "illustration-canada",
+        "country": "Canada"
+    },
+
+    {
+        "id": 2,
+        "image": "illustration-australia",
+        "country": "Australia"
+    },
+
+    {
+        "id": 3,
+        "image": "illustration-united-kingdom",
+        "country": "United Kingdom"
+    }
+
+]

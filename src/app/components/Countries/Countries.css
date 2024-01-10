@@ -1,0 +1,22 @@
+.country-wrapper {
+    gap: 3rem;
+}
+
+/* mobile */
+@media (max-width:639px) {
+
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .country-wrapper {
+        gap: 5rem;
+    }
+}
+
+/* desktop */
+@media (min-width:864px) {
+    .country-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
