@@ -47,15 +47,23 @@
     .country-details-info {
         display: flex;
         justify-content: space-between;
+        gap: 1rem
     }
 }
 
 /* desktop */
 @media (min-width:864px) {
    .country_expand-wrapper {
-        display: flex;
         max-width: 1111px;
         margin-inline: auto;
         width: 90%;
+
+        gap: 1.875rem;
+        grid-template-columns: auto 2fr;
    }
+
+   /* .reverce-canada,
+   .reverce-uk {
+        order: -1;
+   } */
 }
