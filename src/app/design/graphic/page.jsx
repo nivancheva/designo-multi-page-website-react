@@ -3,6 +3,7 @@ import designsJson from '../../../designs.json'
 import GetInTouch from '../../components/GetInTouch/GetInTouch'
 import Card from '../../components/Card/Card'
 import graphic from './graphiccards.json'
+import './GraphicDesign.css'
 
 export default function GhraphicDesign() {
     return (

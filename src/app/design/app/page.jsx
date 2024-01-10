@@ -3,6 +3,7 @@ import designsJson from '../../../designs.json'
 import GetInTouch from '../../components/GetInTouch/GetInTouch'
 import Card from '../../components/Card/Card'
 import appcard from './appcards.json'
+import './AppDesign.css'
 
 export default function AppDesign() {
     return (

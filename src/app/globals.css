@@ -96,6 +96,10 @@ button {
 
 .page-heading {
     background-color: var(--clr-peach);
+    background-image: url('/bg-images/bg-pattern-hero-home.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
     color: var(--clr-white);
     border-radius: var(--border-radius);
     text-align: center;
