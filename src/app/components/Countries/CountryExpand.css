@@ -59,11 +59,17 @@
         width: 90%;
 
         gap: 1.875rem;
-        grid-template-columns: auto 2fr;
+        grid-template-columns: auto auto;
+        align-items: center;
+        object-fit: cover;
    }
 
-   /* .reverce-canada,
+   .country-details {
+        height: 100%;
+   }
+
+   .reverce-canada,
    .reverce-uk {
         order: -1;
-   } */
+   }
 }
