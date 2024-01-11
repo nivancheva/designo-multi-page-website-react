@@ -6,7 +6,7 @@ export default function Company() {
     return (
         <div className="">
             <div className='company-sections about'>
-                <picture>
+                <picture className='company-img'>
                     <source
                         srcSet="/about/desktop/image-about-hero.jpg"
                         media="(min-width:864px)"
@@ -15,7 +15,7 @@ export default function Company() {
                         srcSet="/about/tablet/image-about-hero.jpg"
                         media="(min-width:640px)"
                     />
-                    <img className='company-img' src="/about/mobile/image-about-hero.jpg" />
+                    <img src="/about/mobile/image-about-hero.jpg" />
                 </picture>
               
                 <div className='about-us_text padding-company'>
@@ -25,7 +25,7 @@ export default function Company() {
             </div>
 
             <div className='company-sections'>
-                <picture>
+                <picture className='company-img'>
                     <source
                         srcSet="/about/desktop/image-world-class-talent.jpg"
                         media="(min-width:864px)"
@@ -34,7 +34,7 @@ export default function Company() {
                         srcSet="/about/tablet/image-world-class-talent.jpg"
                         media="(min-width:640px)"
                     />
-                    <img className='company-img' src="/about/mobile/image-world-class-talent.jpg" />
+                    <img src="/about/mobile/image-world-class-talent.jpg" />
                 </picture>
 
                 <div className='world-talant_text padding-company'>
@@ -47,7 +47,7 @@ export default function Company() {
             <Countries />
 
             <div className='company-sections section-gap'>
-                <picture>
+                <picture className='company-img'>
                     <source
                         srcSet="/about/desktop/image-real-deal.jpg"
                         media="(min-width:864px)"
@@ -56,7 +56,7 @@ export default function Company() {
                         srcSet="/about/tablet/image-real-deal.jpg"
                         media="(min-width:640px)"
                     />
-                    <img className='company-img' src="/about/mobile/image-real-deal.jpg" />
+                    <img src="/about/mobile/image-real-deal.jpg" />
                 </picture>
 
                 <div className='real-deal_text padding-company'>

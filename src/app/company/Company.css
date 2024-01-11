@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.company-img {
+.company-img img{
     margin-inline: auto;
     width: 100%;
 }
@@ -62,14 +62,15 @@
 /* desktop */
 @media (min-width:864px) {
     .company-sections {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto;
+        place-content: center;
         max-width: 1111px;
         margin-inline: auto;
         width: 90%;
     }
 
     .padding-company {
-        padding: 9.625rem 5.875rem;
         text-align: left;
     }
 
@@ -79,5 +80,6 @@
 
     .about-us_text {
         order: -1;
+        padding-inline: 5.938rem;
     }
 }
