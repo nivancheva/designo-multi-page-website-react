@@ -8,6 +8,10 @@
     color: var(--clr-white);
 }
 
+.contact-form h1 {
+    margin-bottom: 1.5rem;
+}
+
 /* mobile */
 @media (max-width:639px) {
     .contact-form {
@@ -25,16 +29,20 @@
 
         border-radius: var(--border-radius);
     }
+
+    .contact-form h1 {
+        margin-bottom: 2rem;
+    }
 }
 
 /* desktop */
 @media (min-width:864px) {
     .contact-form {
         max-width: 1111px;
-        align-items: center;
         gap: 5.938rem;
         grid-template-columns: repeat(2, 1fr);
-
+        align-items: center;
         padding: 3.438rem 6rem;
     }
+
 }

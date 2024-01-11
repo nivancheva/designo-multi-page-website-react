@@ -1,13 +1,39 @@
+input {
+    width: 100%;
+    background-color: inherit;
+    color: var(--clr-white);
+    outline: 0;
 
+    border-bottom: 1px solid var(--clr-white-opacity);
+    padding-left: 1rem;
+    padding-bottom: .688rem;
+}
+
+input::placeholder {
+    color: var(--clr-white);
+    opacity: .6;
+}
+
+input:focus {
+    border-bottom-color: var(--clr-white);
+}
+
+.message-input {
+    padding-bottom: 4.75rem;
+}
 
 /* mobile */
 @media (max-width:639px) {
-
+    .form-button {
+        justify-self: center;
+    }
 }
 
 /* tablet */
 @media (min-width:640px) {
-   
+    .form-button {
+        justify-self: end;
+    }
 }
 
 /* desktop */

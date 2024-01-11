@@ -4,6 +4,7 @@
 
 :root {
     --clr-white: rgb(255, 255, 255);
+    --clr-white-opacity: rgba(255, 255, 255, .6);
     --clr-light-gray: rgb(241, 243, 245);
     --clr-black:  rgb(29, 28, 30);
     --clr-dark-gray: rgb(51, 49, 54);
