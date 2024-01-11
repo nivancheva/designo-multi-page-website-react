@@ -6,6 +6,10 @@
 
     background-color: var(--clr-peach);
     color: var(--clr-white);
+
+    background-image: url('../../../public/contact/mobile/bg-pattern-hero-contact-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contact-form h1 {
@@ -28,11 +32,15 @@
         gap: 2.5rem;
 
         border-radius: var(--border-radius);
+
+        background-image: url('../../../public/contact/desktop/bg-pattern-hero-desktop.svg');
+        background-position: top left;
     }
 
     .contact-form h1 {
         margin-bottom: 2rem;
     }
+    
 }
 
 /* desktop */

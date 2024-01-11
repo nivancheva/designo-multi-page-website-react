@@ -1,25 +1,30 @@
-input {
+input,
+textarea {
     width: 100%;
     background-color: inherit;
     color: var(--clr-white);
     outline: 0;
 
     border-bottom: 1px solid var(--clr-white-opacity);
-    padding-left: 1rem;
+    padding-inline: 1rem;
     padding-bottom: .688rem;
+
+    cursor: pointer;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
     color: var(--clr-white);
     opacity: .6;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
     border-bottom-color: var(--clr-white);
 }
 
 .message-input {
-    padding-bottom: 4.75rem;
+    padding-bottom: 3rem;
 }
 
 /* mobile */

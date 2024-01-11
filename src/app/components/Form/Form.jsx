@@ -24,7 +24,7 @@ export default function Form() {
                 name="phone"
                 placeholder='Phone'
             />
-            <input
+            <textarea
                 className='block message-input'
                 type="text"
                 id="message"
