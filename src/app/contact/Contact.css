@@ -1,0 +1,40 @@
+.contact-form {
+    margin-inline: auto;
+    padding: 4.5rem 1.5rem;
+    display: grid;
+    gap: 3rem;
+
+    background-color: var(--clr-peach);
+    color: var(--clr-white);
+}
+
+/* mobile */
+@media (max-width:639px) {
+    .contact-form {
+        text-align: center;
+    }
+}
+
+/* tablet */
+@media (min-width:640px) {
+    .contact-form {
+        max-width: 680px;
+        width: 90%;
+        padding: 4.438rem 3.625rem;
+        gap: 2.5rem;
+
+        border-radius: var(--border-radius);
+    }
+}
+
+/* desktop */
+@media (min-width:864px) {
+    .contact-form {
+        max-width: 1111px;
+        align-items: center;
+        gap: 5.938rem;
+        grid-template-columns: repeat(2, 1fr);
+
+        padding: 3.438rem 6rem;
+    }
+}
