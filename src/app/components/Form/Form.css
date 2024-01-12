@@ -27,6 +27,16 @@ textarea:focus {
     padding-bottom: 3rem;
 }
 
+.errors {
+    align-items: center;
+    gap: .5rem;
+    font-size: .75rem;
+    font-style: italic;
+
+    position: absolute;
+    right: 0;
+    bottom: .5rem;
+}
 /* mobile */
 @media (max-width:639px) {
     .form-button {
