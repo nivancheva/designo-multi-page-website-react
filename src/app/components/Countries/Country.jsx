@@ -1,4 +1,5 @@
 import './Country.css'
+import Link from 'next/link'
 
 export default function Country( {image, country} ) {
     return (
@@ -7,7 +8,7 @@ export default function Country( {image, country} ) {
                 <img src={`countries/${image}.svg`}/>
             </div>
             <h3 className="uppercase mt-[3rem] mb-[2rem]">{country}</h3>
-            <button className="button-primary">See Location</button>
+            <Link href='/location'><button className="button-primary">See Location</button></Link>
         </div>
     )
 }

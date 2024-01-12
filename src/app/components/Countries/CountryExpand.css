@@ -55,8 +55,6 @@
 @media (min-width:864px) {
    .country_expand-wrapper {
         max-width: 1111px;
-        margin-inline: auto;
-        width: 90%;
 
         gap: 1.875rem;
         grid-template-columns: auto auto;
