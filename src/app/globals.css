@@ -32,6 +32,11 @@
     --border-radius: .5rem;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s;
+}
+
 body {
     font-weight: var(--fw-regular);
     min-height: 100vh;
