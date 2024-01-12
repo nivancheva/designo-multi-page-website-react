@@ -4,12 +4,12 @@ import './Form.css'
 import { z } from 'zod'
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import iconError from '../../../../public/contact/desktop/icon-error.svg'
+import validator from 'validator'
 
 const schema = z.object({
     name: z.string().min(1, "Can't be empty"),
     email: z.string().min(1, "Can't be empty").email({ message: "Please enter a valid email address." }),
-    phone: z.coerce.number(),
+    phone: z.string().min(1, "Can't be empty").refine(validator.isMobilePhone),
     message: z.string().min(1, "Can't be empty")
 })
  
@@ -85,7 +85,7 @@ export default function Form() {
                     </div>
                 }
             </div>
-            
+
             <button className='button-secondary form-button'>Submit</button>
         </form>
     )
