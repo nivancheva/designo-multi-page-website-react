@@ -37,6 +37,8 @@
 
     .map-img {
         border-radius: var(--border-radius);
+        height: 100%;
+        object-fit: cover;
     }
 
     .country-details {
@@ -58,8 +60,6 @@
 
         gap: 1.875rem;
         grid-template-columns: auto auto;
-        align-items: center;
-        object-fit: cover;
    }
 
    .country-details {

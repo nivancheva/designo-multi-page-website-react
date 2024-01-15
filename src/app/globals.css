@@ -124,7 +124,7 @@ button {
 /* mobile */
 @media (max-width:639px) {
     .container {
-        max-width: 327px;
+        max-width: 90%;
     }
 
     .translateY {
