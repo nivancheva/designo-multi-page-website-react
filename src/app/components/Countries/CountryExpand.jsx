@@ -1,6 +1,6 @@
 import './CountryExpand.css'
 
-export default function CountryExpand( {country, street, city, telephone, email, mapImg, abbreviation} ) {
+export default function CountryExpand( {name, street, city, telephone, email, mapImg, abbreviation} ) {
     return (
         <div className="country_expand-wrapper">
             <picture>
@@ -16,7 +16,7 @@ export default function CountryExpand( {country, street, city, telephone, email,
             </picture>
             
             <div className={`country-details reverce-${abbreviation}`}>
-                <h2>{country}</h2>
+                <h2>{name}</h2>
                 <div className='country-details-info'>
                     <div className='margin-contact'>
                         <p className='font-bold'>Designo AU Office</p>
