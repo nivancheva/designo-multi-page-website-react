@@ -13,7 +13,7 @@
 }
 
 .map-img {
-    width: 100%;
+    height: 20rem
 }
 
 /* mobile */
@@ -35,10 +35,8 @@
         gap: 1.5rem
     }
 
-    .map-img {
+    .map-img > * {
         border-radius: var(--border-radius);
-        height: 100%;
-        object-fit: cover;
     }
 
     .country-details {
@@ -70,4 +68,8 @@
    .reverce-uk {
         order: -1;
    }
+   .map-img {
+        min-width: 200px;
+        height: 100%;
+    }
 }

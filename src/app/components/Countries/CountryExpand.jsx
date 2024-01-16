@@ -1,19 +1,17 @@
 import './CountryExpand.css'
+import dynamic from 'next/dynamic'
 
-export default function CountryExpand( {name, street, city, telephone, email, mapImg, abbreviation} ) {
+const Map = dynamic(() => import("./Map/Map"), {
+    loading: () => <p>loading...</p>,
+    ssr: false
+})
+
+export default function CountryExpand( {name, street, city, telephone, email, mapImg, abbreviation, position} ) {
     return (
         <div className="country_expand-wrapper">
-            <picture>
-                <source
-                    srcSet={`locations/desktop/${mapImg}.png`}
-                    media="(min-width:864px)"
-                />
-               <source
-                    srcSet={`locations/tablet/${mapImg}.png`}
-                    media="(min-width:640px)"
-                />
-                <img className='map-img' src={`locations/desktop/${mapImg}.png`}/>
-            </picture>
+            <div className='map-img'>
+                <Map position={position}/>
+            </div>
             
             <div className={`country-details reverce-${abbreviation}`}>
                 <h2>{name}</h2>

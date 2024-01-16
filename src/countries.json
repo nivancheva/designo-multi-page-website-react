@@ -9,7 +9,7 @@
         "telephone": "+1 253-863-8967",
         "email": "contact@designo.co",
         "mapImg": "image-map-canada",
-        "position": "[43.651070, -79.347015]"
+        "position": [43.651070, -79.347015]
 
     },
 
@@ -22,7 +22,7 @@
         "telephone": "(02) 6720 9092",
         "email": "contact@designo.au",
         "mapImg": "image-map-australia",
-        "position": "[-31.646544, 152.794124]"
+        "position": [-31.646544, 152.794124]
     },
 
     {
@@ -35,7 +35,7 @@
         "telephone": "078 3115 1400",
         "email": "contact@designo.uk",
         "mapImg": "image-map-united-kingdom",
-        "position": "[51.7719,  -3.9457]"
+        "position": [51.7719,  -3.9457]
     }
 
 ]
