@@ -8,7 +8,8 @@
         "city": "Toronto, Ontario M9C 3J5",
         "telephone": "+1 253-863-8967",
         "email": "contact@designo.co",
-        "mapImg": "image-map-canada"
+        "mapImg": "image-map-canada",
+        "position": "[43.651070, -79.347015]"
 
     },
 
@@ -20,7 +21,8 @@
         "city": "New South Wales 2443",
         "telephone": "(02) 6720 9092",
         "email": "contact@designo.au",
-        "mapImg": "image-map-australia"
+        "mapImg": "image-map-australia",
+        "position": "[-31.646544, 152.794124]"
     },
 
     {
@@ -32,7 +34,10 @@
         "city": "Rhyd-y-fro SA8 9GA",
         "telephone": "078 3115 1400",
         "email": "contact@designo.uk",
-        "mapImg": "image-map-united-kingdom"
+        "mapImg": "image-map-united-kingdom",
+        "position": "[51.7719,  -3.9457]"
     }
 
 ]
+
+
