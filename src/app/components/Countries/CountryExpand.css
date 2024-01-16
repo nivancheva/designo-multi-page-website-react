@@ -16,6 +16,10 @@
     height: 20rem
 }
 
+.map-img > * {
+    height: 100%;
+}
+
 /* mobile */
 @media (max-width:639px) {
     .country-details {
