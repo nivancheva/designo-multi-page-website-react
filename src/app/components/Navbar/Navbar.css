@@ -1,7 +1,6 @@
 .navbar {
     padding-block: 2.188rem;
     background-color: var(--clr-white);
-    z-index: 10;
 }
 
 .navbar-links {
@@ -17,6 +16,7 @@
 @media (max-width:639px) {
     .navbar {
         position: relative;
+        z-index: 1002;
     }
 
     .navbar-links {
@@ -44,6 +44,7 @@
         inset: 0;
         background: var(--clr-black);
         opacity: 0.6;
+        z-index: 1001;
     }
 }
 
