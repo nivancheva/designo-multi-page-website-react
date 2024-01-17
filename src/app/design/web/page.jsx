@@ -4,6 +4,7 @@ import designsJson from '../../../designs.json'
 import GetInTouch from '../../components/GetInTouch/GetInTouch'
 import Card from '../../components/Card/Card'
 import webcard from './webcards.json'
+import '../../design/Design.css'
 
 export default function WebDesign() {
     return (

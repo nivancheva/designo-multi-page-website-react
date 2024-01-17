@@ -4,6 +4,7 @@ import GetInTouch from '../../components/GetInTouch/GetInTouch'
 import Card from '../../components/Card/Card'
 import graphic from './graphiccards.json'
 import './GraphicDesign.css'
+import '../../design/Design.css'
 
 export default function GhraphicDesign() {
     return (
